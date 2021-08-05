@@ -1,1 +1,0 @@
-st.text('This is some text.')
