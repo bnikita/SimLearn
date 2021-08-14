@@ -2,6 +2,7 @@ import streamlit as st
 st.text('Загрузка las файла/файлов')
 st.button('LAS')
 st.text('')
+st.radio('Выберите колонку с именами скважин', ('WELLNAME', 'FORMATION', 'FACIES'))
 st.text ('Диапазон глубины в скважине(ах) для определения похожести')
 st.slider('Smart depth')
 st.slider('End depth')
